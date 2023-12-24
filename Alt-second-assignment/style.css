@@ -74,7 +74,10 @@ a {
 }
 
 .checkout {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60%;
   height: 795px;
   background: white;
   border-top-left-radius: 5px;
@@ -83,7 +86,9 @@ a {
 }       
 
 .out {
+  align-self: flex-start;
   padding: 40px;
+  width: 100%;
   border-bottom: solid #f5f7fa 3px;
   /* margin-bottom: 20px; */
   font-size: large;
@@ -115,7 +120,7 @@ article {
 }
 
 .name input {
-  width: 200px;
+  width: 180px;
   padding: 10px;
   border: none;
   border-radius: 3px;
@@ -129,7 +134,7 @@ article label {
 }
 
 article input {
-  width: 350px;
+  width: 300px;
   padding: 10px;
   border: none;
   border-radius: 3px;
@@ -137,7 +142,7 @@ article input {
 }
 
 .creditcard input {
- width: 430px;
+ width: 380px;
 }
 
 section {
@@ -150,7 +155,7 @@ form button {
   background: #038e7d;
   border: none;
   padding: 13px;
-  width: 430px;
+  width: 380px;
   margin: 30px 0 20px 0;
   border-radius: 5px;
   text-align: center;
@@ -236,7 +241,7 @@ p {
 .comment {
   margin: 45px 0 0 20px;
   border-top: solid 1px #dcdee2;
-  width: 263px;
+  width: 100%;
   padding-top: 40px;
   font-size: 20px;
 }
